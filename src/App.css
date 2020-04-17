@@ -1,38 +1,68 @@
-.App {
+.container{
+  text-align: center;
+  align-content: center;
+}
+
+.box{
+  width: 100px;
+  height: 80px;
+  border: 1px solid black;
+  display:  inline-block;
+  line-height: 80px;
+  position: realtive ;
+}
+
+.board{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 320px;
+}
+
+.btn{
+  background-color: orange;
+  position: absolute;
+  right:49%;
+  bottom:190px;
+  font-size: large;
+}
+
+.start{
+  background-color:lawngreen;
+  font-size: larger;
+  position:relative;
+  bottom:5px;
+  padding-right: 30px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text{
+  text-align: center;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.x{
+  font-size: large;
+  border: 1px solid green;
+  background-color:lightgrey;
+  position:relative;
+  bottom: 5px;
+  left:-2%;
+  
+}
+.o{
+  font-size: large;
+  text-align: center;
+  border: 1px solid green;
+  background-color:lightgoldenrodyellow;
+  position: relative;
+  left:-1.1%;
+  bottom: 5px;
+}
+.back{
+  /* background-color: magenta; */
+  background-image: url("tictactoe.jpg");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.head{
+  font-style:bold;
+  color:royalblue;
 }
